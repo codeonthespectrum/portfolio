@@ -1,0 +1,59 @@
+
+GABRIELLY A. GOMES
+Data Engineer and Machine Learning ResearcherNatal, RN, Brazilgabrielly.gomes@ufpi.edu.br | linkedin.com/in/gabrielly-gomes-ml
+
+EXPERIENCE
+Data Engineering AssistantCortex Intelligence (February 2025  -  Present)
+   oo    Automated PR team workflows using Python and Spark on Databricks, reducing processing time from weeks to hours.
+   oo    Collaborated with engineers to develop and enhance Public Relations (PR) services, including ETL pipelines and data processes.
+   oo    Utilized AWS services (ECS, SQS, S3) and Databricks for scalable data solutions.
+   oo    
+Machine Learning ResearcherFederal University of Piauí (UFPI) (September 2024  -  April 2025)
+   oo    Designed and developed an ML model for detecting hate speech in Portuguese on social media, achieving 75-80% accuracy.
+
+EDUCATION
+Federal University of Piauí (UFPI), Teresina, BrazilBachelor of Technology in Data Management | Expected Graduation: 2028 | GPA: 9.4/10
+Relevant Coursework: Machine Learning, Data Analysis, Descriptive Statistics, Mathematics and Logic, Artificial Intelligence, Data Structures, Databases, Big Data
+
+TECHNICAL SKILLS
+   oo    Programming/Scripting: Python, SQL, R
+   oo    Tools: PyTorch, Git, Spark, Scikit-learn, AWS (ECS, SQS, S3), Databricks, NumPy, Pandas, FastAPI, Flask, Jupyter Notebook, VSCode
+   oo    Cloud: AWS (ECS, SQS, S3), Databricks
+
+RELEVANT COURSES
+   oo    Data Science: Algorithms & Data Structures, Data Analysis, Excel, Machine Learning, Natural Language Processing (NLP), Generative AI
+   oo    Programming: Code in Place (Stanford University, 2025 - Python)
+   oo    Data Science Program (One Oracle Next Education, Jan 2025 - Dec 2025 - Currently Enrolled)
+   oo    Data Engineering Track (Alura)
+   oo    Mathematics: Linear Algebra, Statistics, Probability
+   oo    Business: Data for Commerce, Data for Healthcare
+   oo    Languages: Portuguese (C2), English (C2), Spanish (B1), French (A2)
+
+PUBLICATIONS
+ALVES GOMES, GABRIELLY. Ready Tensor, Inc. The Use of Artificial Intelligence for Educational and Cultural Accessibility in Brazilian Audiovisual.Published for the 1st Agentic AI Innovation Challenge (2025).
+
+PROGRAMS & VOLUNTEER WORK
+Youth Representative
+United Nations - Economic and Social Council (April 2025)
+   oo    Participation in the global preparatory event for the ECOSOC Youth Forum, focused on engaging youth - in shaping public policies and contributing to international reports.
+   oo    -Submission of proposals to integrate youth perspectives into the HLPF Children and Youth Sectoral Paper and the Voices of Youth Report, emphasizing inclusive and intersectional approaches.
+   oo    Active participation in debates on emerging technologies and their role in shaping a sustainable future, including discussions on ethical AI, digital inclusion, and tech-driven solutions for the SDGs.
+   oo    Engaged in discussions with UN experts, government representatives, and global youth leaders to strategize accelerating the implementation of the Sustainable Development Goals (SDGs) by 2030.
+
+Aspire Leader
+Harvard's Aspire Institute (March 2025 - Presente)
+   oo    Conducted a personalized leadership assessment to identify core strengths and growth areas.
+   oo    Leveraged Harvard Business School (HBS) frameworks to optimize LinkedIn branding, resume design, and interview/networking strategies.
+   oo    Self-awareness in leadership & contextual decision-making.
+   oo    Digital transformation, AI's societal impact, and strategies for solving global community challenges.
+   oo    Trust-building and designing scalable solutions for local/global issues.
+   oo    Engaged in live sessions with world-renowned educators and industry leaders
+   oo    Collaborated with peers from 100+ countries in synchronous discussions, fostering a global perspective on leadership and inclusive problem-solving.
+
+Young Leader
+Your Big Year (March 2025 - Present)
+   oo    Interactive Curriculum: Developing confidence, innovative thinking, cultural competency, self-reliance, and resiliency.
+   oo    Industry Mentorship & Coaching: Learning from professionals and gaining insights into real-world applications.
+   oo    Peer Collaboration: Engaging with a global network of young leaders.
+   oo    UN Sustainable Development Goals (SDGs): Exploring ways to align skills, education, and career with impact-driven solutions.
+   oo    Action Plan Development: Creating a structured roadmap for professional and personal growth.

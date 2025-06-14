@@ -31,7 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
             if (translations[lang][key]) {
                 element.innerHTML = translations[lang][key]; // Use innerHTML to allow for HTML tags in translations
             } else {
-                console.warn(`Translation key '${key}' not found for language '${lang}'.`);
+                // Don't warn for keys that might not exist in every language section, like specific PT/EN titles
+                // console.warn(`Translation key '${key}' not found for language '${lang}'.`);
             }
         });
 
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Toggle visibility for CV and Courses content based on language
         toggleLanguageSpecificContent("cv-content", lang);
         toggleLanguageSpecificContent("courses-content", lang);
+        toggleLanguageSpecificContent("portfolio-content", lang);
     }
 
     function toggleLanguageSpecificContent(baseId, currentLang) {
@@ -76,4 +78,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     fetchTranslations();
+
+    // SMOOTH SCROLL FOR ANCHOR LINKS
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            if (this.getAttribute('href') !== '#') {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
 });

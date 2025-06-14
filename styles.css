@@ -57,7 +57,12 @@
     text-decoration: none;
     display: inline-block;
   }
-  
+button.cta {
+  padding: 20px 30px;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: bold;
+}
   .neo-button:hover, button.cta:hover, .lang-button:hover, .cta_service:hover, .contact-button-container button:hover, .portfolio-item-info a:hover, .course-materials-list li a:hover, .publication-link a:hover {
     transform: translate(2px, 2px);
     box-shadow: 2px 2px 0px var(--color-strong-borders);
@@ -177,9 +182,9 @@
   
   .hero .images-container {
     flex-shrink: 0; /* Prevent image container from shrinking */
-    width: 280px; /* Fixed width for the image container */
-    height: 280px; /* Fixed height for the image container */
-    border-radius: 50%;
+    width: 500px; /* Fixed width for the image container */
+    height: 500px; /* Fixed height for the image container */
+    border-radius: 2%;
     overflow: hidden;
     border: 5px solid var(--color-strong-borders);
     box-shadow: 6px 6px 0px var(--color-strong-borders);
@@ -224,7 +229,8 @@
   }
   
   .timeline-item::before { 
-    content: position absolute;
+    content: '';
+    position: absolute;
     left: -39px; 
     top: 20px;
     width: 15px; 
@@ -619,5 +625,77 @@
           height: 180px;
       }
   }
-  
-  
+
+/* STYLES FOR NEW PORTFOLIO CARDS */
+
+/* Remove placeholder styles */
+.portfolio .portfolio-item {
+    display: flex;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between cards */
+}
+
+.portfolio-card {
+    background-color: #ffffff;
+    border: 3px solid var(--color-strong-borders);
+    padding: 25px 30px;
+    box-shadow: 8px 8px 0px var(--color-strong-borders);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.portfolio-card:hover {
+    transform: translate(4px, 4px);
+    box-shadow: 4px 4px 0px var(--color-strong-borders);
+}
+
+.portfolio-card h3 {
+    font-size: 1.6em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--color-lines-borders);
+    padding-bottom: 10px;
+}
+
+.portfolio-card h4 {
+    font-size: 1.1em;
+    color: var(--color-text-main);
+    background-color: var(--color-highlight-alert);
+    display: inline-block;
+    padding: 2px 8px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border: 2px solid var(--color-strong-borders);
+}
+
+.portfolio-card p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+/* Style for the link in the CV */
+.cv-project-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-button-primary);
+    transition: color 0.2s;
+}
+
+.cv-project-link:hover {
+    color: var(--color-strong-borders);
+    text-decoration: underline;
+}
+
+/* Estilo para notas de observação nos projetos */
+.project-observation {
+    font-size: 0.9em; /* Deixa a fonte um pouco menor */
+    font-style: italic; /* Deixa o texto em itálico */
+    color: #555; /* Um cinza escuro, para diferenciar do texto principal */
+    background-color: #f9f9f9; /* Um fundo levemente acinzentado */
+    padding: 10px 15px; /* Adiciona um espaçamento interno */
+    border-left: 3px solid var(--color-button-primary); /* Adiciona uma borda colorida à esquerda para destaque */
+    margin-top: 20px; /* Adiciona um espaço acima para separar do conteúdo anterior */
+}
